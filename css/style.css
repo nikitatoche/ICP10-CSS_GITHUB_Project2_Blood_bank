@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d63031;
+    color: white;
+    padding: 10px 20px;
+    
+}
+
+.logo{
+    
+    padding: 10px;
+}
+
+.navitem a {
+    
+    margin: 0 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.navitem a:hover{
+    color: #ffeaa7;
+}
+
+.btn{
+    border: none;
+    background-color: #d63031;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    color: #ffeaa7;
+    box-shadow: 0 0 10px 0 gray;
+}
