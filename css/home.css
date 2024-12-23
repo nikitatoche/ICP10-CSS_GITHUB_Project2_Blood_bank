@@ -26,3 +26,21 @@
     background-color: yellow;
     color: #d63031;
 }
+
+.heading{
+    color: #d63031;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.item{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
