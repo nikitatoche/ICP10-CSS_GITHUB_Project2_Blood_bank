@@ -2,10 +2,66 @@
 <html lang="en">
 <head>
     <title>Contact Page</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header{
+            background-color: #c2185b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-family: system-ui;
+            font-size: larger;
+        }
+        h1{
+            margin: 0;
+        }
+        .container{
+            width: 800px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2{
+            text-align: center;
+            color: #cc1961;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            padding: 25px;
+        }
+        label{
+            font-weight: bold;
+        }
+        button{
+            background-color: #c2185b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 15px;
+            cursor:pointer;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: #d81b60;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Blood Bank Contact Us</h1>
+        <h1>Contact Us</h1>
       </header>
     
       <div class="container">
@@ -13,16 +69,16 @@
         <p>If you have any questions or would like to donate blood, please fill out the form below:</p>
     <form>
           <label for="name">Full Name:</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text" id="name" name="name" required><Br></Br>
     
           <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" required><Br></Br>
     
           <label for="phone">Phone Number:</label>
-          <input type="text" id="phone" name="phone">
+          <input type="text" id="phone" name="phone"><Br></Br>
     
           <label for="message">Message:</label>
-          <input type="text" id="message" name="message" rows="5" required>
+          <input type="text" id="message" name="message" rows="5" required><Br></Br>
     
           <button type="submit">Submit</button>
      </form>
