@@ -5,35 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blood donating camps</title>
     <style>
-        .btn{
+        .btn {
             height: 45px;
-           width: 85px; 
+            width: 85px; 
             background-color: tomato;
             color: rgba(238, 242, 245, 0.959);
             font-size: 18px;
             border-radius: 10px;
-         }
+        }
 
-         .container{
-            display: flex;
+        
 
-         }
+        .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 50px auto;
+      background-color: white;
+      box-shadow: 10px 10px 10px  10px lightblue;
 
-      
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .image-section {
+      flex: 1;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .text-section {
+      flex: 2;
+      padding: 20px;
+    }
+
     </style>
 </head>
-<body>
-   <center> <h1><b>The Blood Donation Process </b></h1>
-    <p>The blood donation process from the time you arrive until the time you leave takes about an hour.</p>
-    <p>The donation itself is only about 8-10 minutes on average.</p></center>
-    
-     <button class="btn">click me </button>
-   
-<h1><b> Registration and Medical Screening </b></h1>
 
-<div class="container">
-    <img src="blood_img">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, rerum? Ipsa vero ullam ea minus a itaque beatae veniam quis doloribus illum quam temporibus blanditiis quo quibusdam et, odio voluptatibus laudantium magni ex error. Labore repellendus expedita suscipit rerum quisquam!</p>
-</div>
+<body>
+   <center> 
+       <h1><b>The Blood Donation Process</b></h1>
+       <p>The blood donation process from the time you arrive until the time you leave takes about an hour.</p>
+       <p>The donation itself is only about 8-10 minutes on average.</p>
+   </center>
+    
+  <center> <button class="btn">Click Me</button> </center>
+   
+   <h1><b>Registration and Medical Screening</b></h1>
+
+   <div class="container">
+    <div class="img-section">
+        <img src="user.png">
+    </div>
+    <div class="text-section">
+        <p>
+            * Check in for your donation by scanning your ID or enteing your information and be welcomed into the donation waiting area.
+        </p>
+        <p>We'll identif you using your ID ,such as your driver's license. Other acceptable forms of ID include: milot immigration and naturalization card (green card) .</p>
+        <p>You'll be asked to comfirm your name ,date of birth,adress and other demographic information.</p>
+        <p>We'll check your temperature , pulse , blood pressure and hemoglobin level.</p>
+        <p></p>
+    </div>
+   </div>   
 </body>
 </html>
