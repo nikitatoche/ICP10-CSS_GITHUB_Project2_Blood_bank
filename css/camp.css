@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(194, 8, 8);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.d-baground{
+    background-color: rgb(239, 239, 239);
+    height: 700px;
+}
+
+.d-tittle{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.d-img{
+    background-image: url(https://media.istockphoto.com/id/1266746907/photo/patient-donating-blood-at-hospital.jpg?s=612x612&w=0&k=20&c=u84laCe7Gnek5pntOQ4wsAb_tgGQwdHqJreGPQHEFp4=);
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    
+}
+
+.d-img1{
+    background-image: url(https://www.osfhealthcare.org/blog/wp-content/uploads/2021/12/shutterstock_1586903512-1.jpg);
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.d-para{
+   background-color: rgb(188, 32, 32);
+   color: azure;
+   height: 50px;
+   width: 60%;
+   margin-left: 280px;
+   margin-top: 50px;
+   text-align: center;
+   padding-top: 19px;
+   
+   
+}
+
+.d2-baground{
+    background-color: rgb(212, 200, 200);
+    height: 600px;
+}
+
+.d2-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    padding: 40px;
+    font-size: 70px;
+}
+
+.d2-img{
+    background-image: url(https://img.freepik.com/premium-vector/international-blood-donation_883490-3.jpg);
+    height: 350px;
+    width: 340px;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.d2-sub-title{
+    display: flex;
+  
+   
+}
+
+.heading2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.d2-h{
+    margin-left: 10px;
+
+}
+
+.head-p{
+    width: 40%;
+}
+
+.d3-baground{
+    background-color: azure;
+    height: 700px;
+}
+
+.d3-parts{
+    display: flex;
+}
+
+
+
+
+.d3-left{
+    background-image: url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/misc/13433010_1.jpg.img.jpeg);
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    margin-left: 170px;
+}
+
+.d3-right{
+    margin-left: 50px;
+    width: 60%;
+
+}
+
+.info{
+    width: 90%;
+    margin-top: 20px;
+}
