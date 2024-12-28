@@ -3,9 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blood chart</title>
+    <title>Blood Donation Compatibility Chart</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 50px;
+            text-align: center;
+            background:  background-color#ffe6f7 ;
+            color: #0b0a0a;
+        }
+
+        h1 {
+            color: #c62828;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            background-color: #8fc0d2;
+            border-radius: 15px;
+        
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background: #e57373;
+            color: #473b3b;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        tr {
+            background-color: #f9fbe7;
+        }
+
+        td {
+            color: #050505;
+        }
+        
+        
+            (max-width: 768px) {
+            table {
+                font-size: 20px;
+                width: 95%;
+          }
+
+            th, td {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+
+       
+    </style>
 </head>
 <body>
-    <h1>BLOOD CHART</h1>
+    <h1>Blood Donation Compatibility Chart</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Blood Type</th>
+                <th>Can Receive From</th>
+                <th>Can Donate To</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A+</td>
+                <td>A+, A-, O+, O-</td>
+                <td>A+, AB+</td>
+            </tr>
+            <tr>
+                <td>A-</td>
+                <td>A-, O-</td>
+                <td>A+, A-, AB+, AB-</td>
+            </tr>
+            <tr>
+                <td>B+</td>
+                <td>B+, B-, O+, O-</td>
+                <td>B+, AB+</td>
+            </tr>
+            <tr>
+                <td>B-</td>
+                <td>B-, O-</td>
+                <td>B+, B-, AB+, AB-</td>
+            </tr>
+            <tr>
+                <td>O+</td>
+                <td>O+, O-</td>
+                <td>O+, A+, B+, AB+</td>
+            </tr>
+            <tr>
+                <td>O-</td>
+                <td>O-</td>
+                <td>All Blood Types</td>
+            </tr>
+            <tr>
+                <td>AB+</td>
+                <td>All Blood Types</td>
+                <td>AB+</td>
+            </tr>
+            <tr>
+                <td>AB-</td>
+                <td>AB-, A-, B-, O-</td>
+                <td>AB+, AB-</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
