@@ -60,7 +60,7 @@
 }
 
 .unordered_list li{
-    
+    list-style-type: circle;
 }
 .item-img{
     width: 350px;
