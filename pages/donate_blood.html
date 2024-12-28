@@ -1,11 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate blood page</title>
+    <title>Blood Donor Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Donate blood</h1>
+    <a href="DONATE BLOOD" > <b>Donate blood</b></a>
+<form>
+    <h5>🩸Blood bank and blood donation </h5> 
+    <h3>Donar information</h3>
+    <div class="container">
+        
+        <h2>Donate Blood:</h2>
+        
+        
+    
+    
+    <p>Fill information</p>
+    
+            
+     
+         <span>
+        <label for="fileInput"><b>Add photo :</b> <img src="https://cdn-icons-png.freepik.com/256/12377/12377615.png?ga=GA1.1.1950660423.1730118496&semt=ais_hybrid" alt="add photo">
+         Add photo</label>
+        
+        <input type="file" id="fileInput" >
+    </span>
+        
+    
+    
+    
+        
+        
+        <br>
+        <br>
+        
+     
+       
+        
+        <label for="firstName"><b>First name :  &nbsp;&nbsp;&nbsp;</b></label>
+        <input type="text" id="firstName">
+        &nbsp;&nbsp;&nbsp;
+    
+        
+        <label for="lastName"><b>Last name :</b></label>
+        <input type="text" id="lastName"   >
+        <br><br>
+        
+        <label for="phone"><b>Phone  NO   :</b> &nbsp;&nbsp;&nbsp;</b></label>
+        <input type="tel" id="phone">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="disease"><b>Disease :&nbsp; &nbsp; </b></label>
+        <input type="text" id="disease"  value="Nothing">
+        <br><br>
+        
+        
+        
+        
+        <label for="blood-type"><b>Blood type : &nbsp;&nbsp;&nbsp;&nbsp;</b</label>
+        <select id="blood-type" name="blood-type">
+            <option value="A+">A+</option>
+            <option value="B+">B+</option>
+            <option value="AB+">AB+</option>
+            <option value="O+">O+</option>
+            <option value="A-">A-</option>
+            <option value="B-">B-</option>
+            <option value="AB-">AB-</option>
+            <option value="O-">O-</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="select gender">Gender :</label> 
+        <select id="select gender" >
+          <option>Male :</option>
+          <option>Female</option>
+        </select>
+    
+        <br><br>
+    
+        <label for="unit ml"><b>Unit-ml : &nbsp;&nbsp;&nbsp;&nbsp; </b></label>
+        
+        <input type="number" id="unit-ml" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <label for="date"><b>Date :</label> 
+        <input type="date"  id="date">
+        <br>
+        <br>
+        <button class="btn"><b>DONATE</b></button>
+    </form>
+</div>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
 </body>
 </html>
