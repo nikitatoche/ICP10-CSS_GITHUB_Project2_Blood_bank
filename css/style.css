@@ -1,3 +1,59 @@
+<<< main
+.container{
+    height: 450px;
+    width: 800px;
+    background-color:rgb(251, 247, 247);
+    text-align: center;
+    margin-left: 350px;
+    border: rgb(239, 175, 175) solid;
+    border-radius: 40px;
+    }
+    a{
+      background-color: rgb(205, 148, 148);
+      color: rgb(230, 29, 29);
+    }
+    input, select {
+        
+        height: 25px;
+        width: 170px; 
+        background-color:  #fff2e6;
+        border-radius: 5px; 
+    }
+    h5{
+    margin-left:50px;
+    }
+    h2{
+    text-align: center;
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+    }
+  h3{
+    color: red;
+    margin-left: 60px;
+    }
+    img{
+    max-width: 60px;
+    background-color:#fff2e6;
+    border-radius: 5px;
+    }
+    span{
+    margin-right: 140px;
+    
+    }
+    .btn {
+    background-color: red;
+    color: rgb(27, 25, 25);
+    border: 2px solid dashed;
+    border-radius: 10px;
+    height: 30px;
+    width: 170px;
+    }
+    .btn:hover {
+    background-color: aquamarine;
+    color: black;
+    }
+=======
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -85,3 +141,4 @@
 
 
 
+>>>> main
