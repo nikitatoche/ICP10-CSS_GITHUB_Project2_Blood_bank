@@ -3,86 +3,144 @@
 <head>
     <title>Contact Page</title>
     <style>
-        body{
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header{
-            background-color: #c2185b;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            font-family: system-ui;
-            font-size: larger;
-        }
-        h1{
-            margin: 0;
-        }
-        .container{
-            width: 800px;
-            margin: 30px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2{
-            text-align: center;
-            color: #cc1961;
-        }
-        p{
-            text-align: center;
-            font-size: 15px;
-        }
-        form{
-            display: flex;
-            flex-direction: column;
-            margin: 15px;
-            padding: 25px;
-        }
-        label{
-            font-weight: bold;
-        }
-        button{
-            background-color: #c2185b;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 15px;
-            cursor:pointer;
-            border-radius: 5px;
-        }
-        button:hover{
-            background-color: #d81b60;
-        }
+    body{
+    font-family: Arial, sans-serif;
+    background-color: #f9fafc;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color:#880808;
+    color: #fff;
+    text-align: center;
+    padding: 24px 0;
+}
+h1{
+    margin: 0;
+    font-size: 32px;
+}
+p{
+    font-size: 17px;
+    margin-top: 8px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 32px;
+}
+.contact-info{
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 24px;
+    margin: 16px;
+    width: 500px;
+    height: 510px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+ .contact-info h2{
+    color: #880808;
+ }
+.contact-info p{
+    margin: 8px 0;
+
+}
+
+.contact-form{
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 24px;
+    margin: 16px;
+    width: 500px;
+    height: 510px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+.contact-form h2{
+    color:#880808;
+    margin: 16px;
+    font-size: 25px;
+    justify-content: flex-start;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+label{
+    margin-bottom: 10px;
+    
+}
+input[type=text]{
+    height: 18px;
+    width: 440px;
+    padding: 10px;
+    font-family: 15px;
+} 
+
+input[type=email]{
+height: 18px;
+width: 440px;
+padding: 10px;
+font-family: 15px;
+}
+input[type=tel]
+{
+height: 18px;
+width: 440px;
+padding: 10px;
+font-family: 15px;
+}
+input[type=submit]{
+    background-color: #810b0b;
+    color: #fff;
+    border: none;
+    width: 465px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: #e0e0e0;
+}
+.contact-form button:hover{
+    background-color:#810b0b
+}
+
     </style>
 </head>
 <body>
     <header>
-        <h1>Contact Us</h1>
+        <h1>Contact Our Blood Bank</h1>
+        <p>We're here to save lives,one drop at a time.</p>
       </header>
+      <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><B>Address</B>:-123 Health Street,City Country</p>
+            <p><B>Phone</B>:<a href="tel:+91 9356443919"> + 91 9356443919</a><p>
+            <p><B>Email</B>:-<a href="mailto:contactbloodbank1@gmail.com"> contactbloodbank1@gmail.com</a></p>
+            <p><B>Working Hours</B>:- 24 Hours</p>
+        </section>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name"><B>Name</B></label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><Br>
+                <label for="email"><B>Email</B></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><Br>
+                <label for="Phone"><B>Phone</B></label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><Br>
+                <label for="message"><B>Message</B></label>
+                <input type="text" id="message" name="message" placeholder="Enter your message"><Br>
     
-      <div class="container">
-        <h2>Get in Touch</h2>
-        <p>If you have any questions or would like to donate blood, please fill out the form below:</p>
-    <form>
-          <label for="name">Full Name:</label>
-          <input type="text" id="name" name="name" required size="40"><Br></Br>
-    
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required size="40"><Br></Br>
-    
-          <label for="phone">Phone Number:</label>
-          <input type="text" id="phone" name="phone" required size="40"><Br></Br>
-    
-          <label for="message">Message:</label>
-          <input type="text" id="message" name="message" required size="40" height="100px"><Br></Br>
-    
-          <button type="submit">Submit</button>
-     </form>
-      </div>
-    
+                <input type="submit" value="Submit">
+         </form>
+         </main>
+        </section>
+
+
 </body>
 </html>

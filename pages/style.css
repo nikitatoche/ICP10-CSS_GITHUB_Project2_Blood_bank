@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#ff9999; 
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .doubt-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ff0000; 
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .btn1 {
+    height:40px;
+    width: 130px;
+    border:2px double ;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #ffff33; 
+    color:  black; 
+    
+  }
+  
+  .faq-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: whitesmoke;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color:black;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    width: 90%;
+    height: 30px;
+    padding: 20px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    placeholder-color: #666;
+  }
+  
+  
