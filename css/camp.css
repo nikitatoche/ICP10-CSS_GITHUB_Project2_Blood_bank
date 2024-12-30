@@ -132,3 +132,35 @@
     width: 90%;
     margin-top: 20px;
 }
+
+.d3-title{
+    padding-left: 165px;
+    padding-top: 30px;
+}
+
+.info-2{
+    margin-left: 200px;
+    font-size: large;
+
+
+}
+
+.video{
+    padding-left: 160px;
+    padding-top: 50px;
+}
+
+.btn1{
+    border: none;
+    background-color: #d63031;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 700px;
+    margin-top: 10px;
+
+}
+
+.btn1:hover{
+   background-color: rgb(7, 6, 4);
+}
